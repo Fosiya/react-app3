@@ -1,0 +1,31 @@
+body {
+  background-image: url("https://source.unsplash.com/photos/0ZPSX_mQ3xI");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+      color: #FFF;
+  }
+
+  a {
+      text-decoration: none;
+      color: #FFF;
+      padding-right: 15px;
+      padding-left: 15px;
+
+      &:visited {
+          text-decoration: none;
+          color: white;
+        }
+  }
+  
+}
